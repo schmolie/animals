@@ -1,4 +1,4 @@
-# ************************************************************
+﻿# ************************************************************
 # Sequel Pro SQL dump
 # Version 4541
 #
@@ -7,7 +7,7 @@
 #
 # Värd: 127.0.0.1 (MySQL 5.7.14)
 # Databas: wp_animals
-# Genereringstid: 2016-10-25 10:11:07 +0000
+# Genereringstid: 2016-10-25 11:27:12 +0000
 # ************************************************************
 
 
@@ -250,7 +250,9 @@ VALUES
 	(128,'_transient_timeout_plugin_slugs','1477476496','no'),
 	(129,'_transient_plugin_slugs','a:2:{i:0;s:19:\"akismet/akismet.php\";i:1;s:9:\"hello.php\";}','no'),
 	(130,'_transient_timeout_dash_88ae138922fe95674369b1cb3d215a2b','1477433296','no'),
-	(131,'_transient_dash_88ae138922fe95674369b1cb3d215a2b','<div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wordpress.org/news/2016/10/join-us-again-for-global-wordpress-translation-day/\'>Join Us Again for Global WordPress Translation Day</a> <span class=\"rss-date\">October 14, 2016</span><div class=\"rssSummary\">The WordPress Polyglots team is organizing the second Global WordPress Translation Day on November 12th. Everyone is invited to join – from anywhere in the world! Translating is one of the easiest ways to get involved with WordPress and contribute to the project. Global WordPress Translation Day is your chance to learn more about translating WordPress, meet [&hellip;]</div></li></ul></div><div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wptavern.com/wordpress-4-7-to-introduce-user-specific-language-setting-for-the-admin\'>WPTavern: WordPress 4.7 to Introduce User-Specific Language Setting for the Admin</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/linkedin-learning-is-offering-free-access-this-week-to-its-library-of-more-than-5000-courses\'>WPTavern: LinkedIn Learning Is Offering Free Access This Week to Its Library of More Than 5,000 Courses</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/automattic-releases-free-wordpress-stickers-app-for-ios-10\'>WPTavern: Automattic Releases Free WordPress Stickers App for iOS 10</a></li></ul></div><div class=\"rss-widget\"><ul><li class=\"dashboard-news-plugin\"><span>Popular Plugin:</span> Meta Slider&nbsp;<a href=\"plugin-install.php?tab=plugin-information&amp;plugin=wpclef&amp;_wpnonce=554e893d3e&amp;TB_iframe=true&amp;width=600&amp;height=800\" class=\"thickbox open-plugin-details-modal\" aria-label=\"Install Meta Slider\">(Install)</a></li></ul></div>','no');
+	(131,'_transient_dash_88ae138922fe95674369b1cb3d215a2b','<div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wordpress.org/news/2016/10/join-us-again-for-global-wordpress-translation-day/\'>Join Us Again for Global WordPress Translation Day</a> <span class=\"rss-date\">October 14, 2016</span><div class=\"rssSummary\">The WordPress Polyglots team is organizing the second Global WordPress Translation Day on November 12th. Everyone is invited to join – from anywhere in the world! Translating is one of the easiest ways to get involved with WordPress and contribute to the project. Global WordPress Translation Day is your chance to learn more about translating WordPress, meet [&hellip;]</div></li></ul></div><div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wptavern.com/wordpress-4-7-to-introduce-user-specific-language-setting-for-the-admin\'>WPTavern: WordPress 4.7 to Introduce User-Specific Language Setting for the Admin</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/linkedin-learning-is-offering-free-access-this-week-to-its-library-of-more-than-5000-courses\'>WPTavern: LinkedIn Learning Is Offering Free Access This Week to Its Library of More Than 5,000 Courses</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/automattic-releases-free-wordpress-stickers-app-for-ios-10\'>WPTavern: Automattic Releases Free WordPress Stickers App for iOS 10</a></li></ul></div><div class=\"rss-widget\"><ul><li class=\"dashboard-news-plugin\"><span>Popular Plugin:</span> Meta Slider&nbsp;<a href=\"plugin-install.php?tab=plugin-information&amp;plugin=wpclef&amp;_wpnonce=554e893d3e&amp;TB_iframe=true&amp;width=600&amp;height=800\" class=\"thickbox open-plugin-details-modal\" aria-label=\"Install Meta Slider\">(Install)</a></li></ul></div>','no'),
+	(132,'_transient_is_multi_author','0','yes'),
+	(133,'_transient_twentysixteen_categories','1','yes');
 
 /*!40000 ALTER TABLE `wp_options` ENABLE KEYS */;
 UNLOCK TABLES;
