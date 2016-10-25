@@ -1,13 +1,13 @@
-﻿# ************************************************************
+# ************************************************************
 # Sequel Pro SQL dump
-# Version 4541
+# Version 4499
 #
 # http://www.sequelpro.com/
 # https://github.com/sequelpro/sequelpro
 #
-# Värd: 127.0.0.1 (MySQL 5.7.14)
-# Databas: wp_animals
-# Genereringstid: 2016-10-25 11:27:12 +0000
+# Host: localhost (MySQL 5.5.42)
+# Database: wp_animals
+# Generation Time: 2016-10-25 12:33:57 +0000
 # ************************************************************
 
 
@@ -20,7 +20,7 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
-# Tabelldump wp_commentmeta
+# Dump of table wp_commentmeta
 # ------------------------------------------------------------
 
 DROP TABLE IF EXISTS `wp_commentmeta`;
@@ -37,7 +37,7 @@ CREATE TABLE `wp_commentmeta` (
 
 
 
-# Tabelldump wp_comments
+# Dump of table wp_comments
 # ------------------------------------------------------------
 
 DROP TABLE IF EXISTS `wp_comments`;
@@ -77,7 +77,7 @@ VALUES
 UNLOCK TABLES;
 
 
-# Tabelldump wp_links
+# Dump of table wp_links
 # ------------------------------------------------------------
 
 DROP TABLE IF EXISTS `wp_links`;
@@ -102,7 +102,7 @@ CREATE TABLE `wp_links` (
 
 
 
-# Tabelldump wp_options
+# Dump of table wp_options
 # ------------------------------------------------------------
 
 DROP TABLE IF EXISTS `wp_options`;
@@ -223,7 +223,7 @@ VALUES
 	(100,'widget_calendar','a:1:{s:12:\"_multiwidget\";i:1;}','yes'),
 	(101,'widget_tag_cloud','a:1:{s:12:\"_multiwidget\";i:1;}','yes'),
 	(102,'widget_nav_menu','a:1:{s:12:\"_multiwidget\";i:1;}','yes'),
-	(103,'cron','a:2:{i:1477433282;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}s:7:\"version\";i:2;}','yes'),
+	(103,'cron','a:3:{i:1477433282;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1477484827;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}','yes'),
 	(107,'_site_transient_update_core','O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-4.6.1.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-4.6.1.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-4.6.1-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-4.6.1-new-bundled.zip\";s:7:\"partial\";b:0;s:8:\"rollback\";b:0;}s:7:\"current\";s:5:\"4.6.1\";s:7:\"version\";s:5:\"4.6.1\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"4.4\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1477390085;s:15:\"version_checked\";s:5:\"4.6.1\";s:12:\"translations\";a:0:{}}','no'),
 	(109,'_site_transient_update_plugins','O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1477390089;s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:2:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:2:\"15\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:3:\"3.2\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:54:\"https://downloads.wordpress.org/plugin/akismet.3.2.zip\";}s:9:\"hello.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:4:\"3564\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:3:\"1.6\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip\";}}}','no'),
 	(110,'_site_transient_timeout_theme_roots','1477391886','no'),
@@ -252,13 +252,16 @@ VALUES
 	(130,'_transient_timeout_dash_88ae138922fe95674369b1cb3d215a2b','1477433296','no'),
 	(131,'_transient_dash_88ae138922fe95674369b1cb3d215a2b','<div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wordpress.org/news/2016/10/join-us-again-for-global-wordpress-translation-day/\'>Join Us Again for Global WordPress Translation Day</a> <span class=\"rss-date\">October 14, 2016</span><div class=\"rssSummary\">The WordPress Polyglots team is organizing the second Global WordPress Translation Day on November 12th. Everyone is invited to join – from anywhere in the world! Translating is one of the easiest ways to get involved with WordPress and contribute to the project. Global WordPress Translation Day is your chance to learn more about translating WordPress, meet [&hellip;]</div></li></ul></div><div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wptavern.com/wordpress-4-7-to-introduce-user-specific-language-setting-for-the-admin\'>WPTavern: WordPress 4.7 to Introduce User-Specific Language Setting for the Admin</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/linkedin-learning-is-offering-free-access-this-week-to-its-library-of-more-than-5000-courses\'>WPTavern: LinkedIn Learning Is Offering Free Access This Week to Its Library of More Than 5,000 Courses</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/automattic-releases-free-wordpress-stickers-app-for-ios-10\'>WPTavern: Automattic Releases Free WordPress Stickers App for iOS 10</a></li></ul></div><div class=\"rss-widget\"><ul><li class=\"dashboard-news-plugin\"><span>Popular Plugin:</span> Meta Slider&nbsp;<a href=\"plugin-install.php?tab=plugin-information&amp;plugin=wpclef&amp;_wpnonce=554e893d3e&amp;TB_iframe=true&amp;width=600&amp;height=800\" class=\"thickbox open-plugin-details-modal\" aria-label=\"Install Meta Slider\">(Install)</a></li></ul></div>','no'),
 	(132,'_transient_is_multi_author','0','yes'),
-	(133,'_transient_twentysixteen_categories','1','yes');
+	(133,'_transient_twentysixteen_categories','1','yes'),
+	(134,'_site_transient_timeout_browser_fdfe46da4e0cfcbc728db30d4233ec17','1478003227','no'),
+	(135,'_site_transient_browser_fdfe46da4e0cfcbc728db30d4233ec17','a:9:{s:8:\"platform\";s:9:\"Macintosh\";s:4:\"name\";s:6:\"Chrome\";s:7:\"version\";s:12:\"54.0.2840.71\";s:10:\"update_url\";s:28:\"http://www.google.com/chrome\";s:7:\"img_src\";s:49:\"http://s.wordpress.org/images/browsers/chrome.png\";s:11:\"img_src_ssl\";s:48:\"https://wordpress.org/images/browsers/chrome.png\";s:15:\"current_version\";s:2:\"18\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;}','no'),
+	(139,'category_children','a:0:{}','yes');
 
 /*!40000 ALTER TABLE `wp_options` ENABLE KEYS */;
 UNLOCK TABLES;
 
 
-# Tabelldump wp_postmeta
+# Dump of table wp_postmeta
 # ------------------------------------------------------------
 
 DROP TABLE IF EXISTS `wp_postmeta`;
@@ -284,7 +287,7 @@ VALUES
 UNLOCK TABLES;
 
 
-# Tabelldump wp_posts
+# Dump of table wp_posts
 # ------------------------------------------------------------
 
 DROP TABLE IF EXISTS `wp_posts`;
@@ -333,7 +336,7 @@ VALUES
 UNLOCK TABLES;
 
 
-# Tabelldump wp_term_relationships
+# Dump of table wp_term_relationships
 # ------------------------------------------------------------
 
 DROP TABLE IF EXISTS `wp_term_relationships`;
@@ -357,7 +360,7 @@ VALUES
 UNLOCK TABLES;
 
 
-# Tabelldump wp_term_taxonomy
+# Dump of table wp_term_taxonomy
 # ------------------------------------------------------------
 
 DROP TABLE IF EXISTS `wp_term_taxonomy`;
@@ -379,13 +382,15 @@ LOCK TABLES `wp_term_taxonomy` WRITE;
 
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`)
 VALUES
-	(1,1,'category','',0,1);
+	(1,1,'category','',0,1),
+	(2,2,'category','',0,0),
+	(3,3,'category','',0,0);
 
 /*!40000 ALTER TABLE `wp_term_taxonomy` ENABLE KEYS */;
 UNLOCK TABLES;
 
 
-# Tabelldump wp_termmeta
+# Dump of table wp_termmeta
 # ------------------------------------------------------------
 
 DROP TABLE IF EXISTS `wp_termmeta`;
@@ -402,7 +407,7 @@ CREATE TABLE `wp_termmeta` (
 
 
 
-# Tabelldump wp_terms
+# Dump of table wp_terms
 # ------------------------------------------------------------
 
 DROP TABLE IF EXISTS `wp_terms`;
@@ -422,13 +427,15 @@ LOCK TABLES `wp_terms` WRITE;
 
 INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`)
 VALUES
-	(1,'Uncategorized','uncategorized',0);
+	(1,'Uncategorized','uncategorized',0),
+	(2,'Cat','cat',0),
+	(3,'Dog','dog',0);
 
 /*!40000 ALTER TABLE `wp_terms` ENABLE KEYS */;
 UNLOCK TABLES;
 
 
-# Tabelldump wp_usermeta
+# Dump of table wp_usermeta
 # ------------------------------------------------------------
 
 DROP TABLE IF EXISTS `wp_usermeta`;
@@ -461,14 +468,14 @@ VALUES
 	(11,1,'wp_user_level','10'),
 	(12,1,'dismissed_wp_pointers',''),
 	(13,1,'show_welcome_panel','1'),
-	(14,1,'session_tokens','a:1:{s:64:\"9bcc7f6ef329a90c20b127392f73a186b3646ccdf16cb4b909f7ace97af56711\";a:4:{s:10:\"expiration\";i:1477562890;s:2:\"ip\";s:7:\"fe80::1\";s:2:\"ua\";s:120:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36\";s:5:\"login\";i:1477390090;}}'),
+	(14,1,'session_tokens','a:2:{s:64:\"9bcc7f6ef329a90c20b127392f73a186b3646ccdf16cb4b909f7ace97af56711\";a:4:{s:10:\"expiration\";i:1477562890;s:2:\"ip\";s:7:\"fe80::1\";s:2:\"ua\";s:120:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36\";s:5:\"login\";i:1477390090;}s:64:\"b0704cc596f9d2b32b08323cee261fe34e685ac28355aff00af3e43f73a422c6\";a:4:{s:10:\"expiration\";i:1477571226;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:120:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36\";s:5:\"login\";i:1477398426;}}'),
 	(15,1,'wp_dashboard_quick_press_last_post_id','3');
 
 /*!40000 ALTER TABLE `wp_usermeta` ENABLE KEYS */;
 UNLOCK TABLES;
 
 
-# Tabelldump wp_users
+# Dump of table wp_users
 # ------------------------------------------------------------
 
 DROP TABLE IF EXISTS `wp_users`;
